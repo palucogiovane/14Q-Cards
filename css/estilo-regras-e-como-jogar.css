@@ -1,0 +1,26 @@
+/* FORMATAÇÕES REGRAS E COMO JOGAR */
+section.regras-e-como-jogar, section.cartas-extras{
+    padding: 40px 4%;
+}
+
+section.regras-e-como-jogar .flex, section.cartas-extras .flex{
+    justify-content:space-between;
+}
+
+section.regras-e-como-jogar h1, section.cartas-extras h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+section.regras-e-como-jogar p, section.cartas-extras p{
+    text-align: center;
+    color: black;
+}
+
+section.cartas-extras img, section.regras-e-como-jogar img{
+    margin-top: 50px;
+}
+
+
+

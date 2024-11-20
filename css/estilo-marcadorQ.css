@@ -1,0 +1,52 @@
+/* FORMATAÇÕES DA TABELA DE MARCADOR */
+section.tabelaMarcador{
+    padding: 40px 4%;
+}
+
+.tituloTableMarcador{
+    background-color: steelblue;
+    color: white;
+}
+
+.tabelaMarcador .txt-instrucoes-marcador h1{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.tabelaMarcador .txt-instrucoes-marcador h1 span{
+    color: red;
+}
+
+section.tabelaMarcador .flex{
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+
+}
+
+.tabelaMarcador .txt-instrucoes-marcador p{
+    margin: 20px 0;
+}
+
+.tabelaMarcador .txt-instrucoes-marcador p span{
+    color: red;
+    font-weight: bold;
+}
+
+.tabelaMarcador table{
+    border: 1px solid white;
+}
+
+.tabelaMarcador table tr td{
+    text-align: center;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.tabelaMarcador table tr td{
+    border-bottom: 1px solid white;
+}
+
+.tabelaMarcador .start{
+    text-align: start;
+}

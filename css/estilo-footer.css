@@ -1,0 +1,46 @@
+/* FORMATAÇÕES RODAPÉ */
+footer{
+    padding: 40px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer p{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .line-footer i{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover{
+    color: red;
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+footer .logo-footer{
+    padding-top: 20px;
+}
+
+footer .line-footer p{
+    border-top: 1px solid black;
+    padding: 20px 0 20px 0;
+}

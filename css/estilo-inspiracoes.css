@@ -1,0 +1,31 @@
+/* FORMATÇÕES INSPIRAÇÕES E CRIAÇÃO */
+section.inspiracoes{
+    padding: 40px 4%;
+}
+
+section.inspiracoes .flex{
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.txt-inspiracoes h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.txt-inspiracoes h2{
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.txt-inspiracoes p{
+    padding: 10px 0;
+}
+
+.txt-inspiracoes span{
+    color: red;
+    font-weight: bold;
+}

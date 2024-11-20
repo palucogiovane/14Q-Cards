@@ -1,0 +1,135 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14Q-Cards - Feedback</title>
+    
+    <!--Ícone da página-->
+    <link rel="icon" href="img/icon.png">
+
+    <!--Estilo customizado - FORMATAÇÕES GERAIS - CSS-->
+    <link rel="stylesheet" href="css/estilo-formatacoes-gerais.css">
+
+    <!--Estilo customizado - HEADER - CSS-->
+    <link rel="stylesheet" href="css/estilo-header.css">
+    
+    <!--Estilo customizado - CRIADORES - CSS-->
+    <link rel="stylesheet" href="css/estilo-feedback.css">
+
+    <!--Estilo customizado - FOOTER - CSS-->
+    <link rel="stylesheet" href="css/estilo-footer.css">
+
+    <!--Gooogle Fonts - Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--Bootstrap 5 - ÍCONES-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header><!--Header-->
+        <div class="interface"><!--Interface-->
+            <div class="logo"><!--Logo-->
+                <a href="index.html">
+                    <img src="img/logooficial.png" alt="Logo Oficial do Site" style="width: 200px;">
+                </a>
+            </div><!--/Logo-->
+
+            <nav class="menu-desktop"><!--Links-->
+                <ul>
+                    <li>
+                        <a href="marcadorQ.html" target="_blank">Marcador Q</a>
+                    </li>
+
+                    <li>
+                        <a href="regras-e-como-jogar.html" target="_blank">Regras e como jogar</a>
+                    </li>
+
+                    <li>
+                        <a href="inspiracoes.html" target="_blank">Inspirações e criação</a>
+                    </li>
+                </ul>
+            </nav><!--Links-->
+
+            <div><!--Logo da Bosch-->
+                <img src="img/logoBosch.png" alt="Logo Oficial da Bosch" style="width: 150px;">
+            </div><!--/Logo da Bosch-->
+        </div><!--/Interface-->
+    </header><!--/Header-->
+
+    <div class="coresBosch"><!--Cores Bosch Cabeçalho-->
+        <img src="img/bosch.png" alt="Cores Bosch">
+    </div><!--/Cores Bosch Cabeçalho-->
+
+
+    <main><!--Main-->
+        <section class="feedback"><!--Feedback-->
+            <div class="interface"><!--Interface-->
+                <div class="flex"><!--Flex-->
+                    <div class="txt-formulario"><!--Txt Formulário-->
+                        <h1>Feedback</h1>
+                        <p>Este é um espaço para você compartilhar sua opinião sobre o projeto e sugerir melhorias.</p>
+                        <p>Apenas o campo <span>"Sua mensagem:"</span> é obrigatório, mas seria muito útil saber as demais informações para termos uma melhor ideia do alcance do nosso projeto.</p>
+                        <p>Após enviar, você será direcionado para uma página de confirmação <span>"Não sou um robô"</span>. Após a verificação, o feedback será enviado com sucesso. Obrigado por colaborar!</p>
+                    </div><!--/Txt Formulário-->
+
+                    <div class="formulario"><!--Formulário-->
+                        <form action="https://formsubmit.co/giovanelealpaluco@gmail.com" method="post">
+                            <input type="text" name="nome" id="nome" placeholder="Seu nome:">
+                            <input type="text" name=email id="email" placeholder="Seu e-mail:">
+                            <input type="text" name="setor" id="setor" placeholder="Setor:">
+                            <input type="text" name="cargo" id="cargo" placeholder="Cargo:">
+                            <textarea name="msg" id="msg" placeholder="Sua mensagem:" required></textarea>
+                            <div class="btn-enviar">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                            <input type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div><!--/Formulário-->
+                </div><!--/Flex-->
+            </div><!--/Interface-->
+        </section><!--/Feedback-->
+    </main><!--/Main-->
+
+
+    <div class="coresBosch"><!--Cores Bosch Rodapé-->
+        <img src="img/bosch.png" alt="Cores Bosch">
+    </div><!--/Cores Bosch Rodapé-->
+
+    <footer><!--Rodapé-->
+
+        <div class="interface"><!--Interface-->
+            <div class="line-footer"><!--Line-footer - 1 -->
+                <div class="flex"><!--Flex-->
+                    <div class="logo-footer"><!--Logo footer-->   
+                        <img src="img/logo1.png" alt="Logo Oficial do Projeto" style="width: 150px; padding-bottom: 20px;">
+                    </div><!--/Logo footer-->
+                    <div><!--Links rodapé-->
+                        <ul>
+                            <li>
+                                <a href="criadores.html" target="_blank">Criadores</a>
+                            </li>
+
+                            <li>
+                                <a href="feedback.html" target="_blank">Feedback</a>
+                            </li>
+                        </ul>
+                    </div><!--/Links rodapé-->
+                </div><!--/Flex-->    
+            </div><!--/Line-footer - 1 -->
+
+
+            <div class="line-footer"><!--Line-footer - 2 -->
+                <p> &#169; Todos os direitos reservados.</p>      
+            </div><!--/Line-footer - 2 -->
+        </div><!--/Interface-->
+    </footer><!--/Rodapé-->
+    
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,66 @@
+/* FORMATAÇÕES CONFIRMAÇÃO DE ENVIO */
+section.envio-formulario{
+    display: flex;
+    align-items: center;
+}
+
+.img-formulario img{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    margin-top: 5vw;
+}
+
+.txt-formulario{
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.txt-formulario h1, .txt-formulario h2{
+    text-align: center;
+}
+
+.txt-formulario h1{
+    color: white;
+    font-size: 36px;
+    margin-top: 3vw;
+}
+
+.txt-formulario h2{
+    margin-top: 3vw;
+}
+
+.envio-formulario a{
+    text-decoration: none;
+}
+
+.envio-formulario a button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5vw;
+    padding: 5px;
+    width: 120px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+.envio-formulario a button:hover{
+    transform: scale(1.05);
+}
+
+        

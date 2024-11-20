@@ -1,0 +1,218 @@
+/* FORMATAÇÕES TOPO DO SITE */
+section.topo-site{
+    padding: 40px 4%;
+}
+
+section.topo-site .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.topo-site .txt-topo-site h1{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-site .txt-topo-site h1 span{
+    color: red;
+}
+
+.topo-site .txt-topo-site p{
+    margin: 20px 0;
+}
+
+.topo-site .txt-topo-site p span{
+    color: red;
+    font-weight: bold;
+}
+
+.topo-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* FORMATAÇÕES TABELA DE PONTOS */
+.tituloTablePontos{
+    background-color: steelblue;
+    color: white;
+}
+
+section .formatacaoTabelaPontos table{
+    text-align: center;
+    font-weight: bold;
+}
+
+section .formatacaoTabelaPontos table input{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.tabelaPontos .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.tabelaPontos{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tabelaPontos table tr td{
+    padding: 0 3px;
+}
+
+.cor1{
+    background-color: #ff6961;
+}
+
+.cor2{
+    background-color: #77dd77;
+}
+
+.cor3{
+    background-color: #fdfd96;
+}
+
+.cor4{
+    background-color: #84b6f4;
+}
+
+.cor5{
+    background-color: #fdcae1;
+}
+
+.cor6{
+    background-color: #c5c6c8;
+}
+
+.cor7{
+    background-color: #4afde7;
+}
+
+.cor8{
+    background-color: #bc98f3;
+}
+
+.btn-reset button, .graficoPontos button{
+    width: 120px;
+    margin-top: 2vw;
+    background-color: orangered;
+    padding: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: orangered;
+    cursor: pointer;
+}
+
+.btn-reset button:hover, .graficoPontos button:hover{
+    transform: scale(1.05);
+    font-weight: bold;
+}
+
+.graficoPontos button{
+    margin-left: 5px;
+}
+
+/* FORMATAÇÕES SORTEADOR */
+section.sorteador{
+    padding: 40px 4%;
+}
+
+section.sorteador .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.instrucoesSorteador h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 42px;
+}
+
+.instrucoesSorteador ul li span{
+    color: red;
+    font-weight: bold;
+}
+
+.caixaSorteador{
+    border: 1px solid white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.caixaSorteador h5{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.caixaSorteador button{
+   width: 120px;
+   margin-top: 2vw;
+   background-color: orangered;
+   padding: 5px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;
+   border: orangered;
+   cursor: pointer;
+}
+
+.caixaSorteador button:hover{
+    transform: scale(1.05);
+ }
+
+.caixaSorteador input{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;    
+}
+
+.caixaSorteador h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
